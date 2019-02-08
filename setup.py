@@ -6,12 +6,12 @@ from setuptools import setup
 
 
 setup(
-    name='tormysql',
+    name='anthill-tormysql',
     version='0.4.0',
     packages=['tormysql', 'tormysql.platform'],
     install_requires=[
         'tornado>=5.0',
-        'PyMySQL>=0.7.10',
+        'anthill-PyMySQL>=0.9.999',
         'greenlet>=0.4.2',
     ],
     author='snower, mosquito',
